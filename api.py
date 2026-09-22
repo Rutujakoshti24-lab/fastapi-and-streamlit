@@ -16,7 +16,10 @@ from fastapi import FastAPI, File, UploadFile, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 71a641bc34554c88333d62ef8698f2241a3337c1
 # --------------------------------------------------------------------------
 # App setup
 # --------------------------------------------------------------------------
@@ -357,4 +360,8 @@ def clean_dataset(options: CleaningOptions):
         "remaining_missing_values": int(df.isnull().sum().sum()),
         "column_dtypes": {c: str(t) for c, t in df.dtypes.items()},
         "data": df.to_dict(orient="records"),
+<<<<<<< HEAD
     })
+=======
+    })
+>>>>>>> 71a641bc34554c88333d62ef8698f2241a3337c1

@@ -7,4 +7,8 @@ numpy==1.26.4
 plotly==5.24.1
 requests==2.32.3
 python-multipart==0.0.9
+<<<<<<< HEAD
 pydantic==2.9.2
+=======
+pydantic==2.9.2
+>>>>>>> 71a641bc34554c88333d62ef8698f2241a3337c1
