@@ -7,18 +7,6 @@ Run with: streamlit run app.py
 (Make sure the FastAPI backend is already running: uvicorn api:app --reload)
 """
 
-<<<<<<< HEAD
-"""
-Automated Data Analytics Dashboard - Streamlit Frontend
-----------------------------------------------------------
-Uploads a CSV to the FastAPI backend and renders an interactive analytics
-dashboard from the JSON it returns.
-Run with: streamlit run app.py
-(Make sure the FastAPI backend is already running: uvicorn api:app --reload)
-"""
-
-=======
->>>>>>> 71a641bc34554c88333d62ef8698f2241a3337c1
 import io
 
 import pandas as pd
@@ -379,8 +367,4 @@ with tabs[11]:
             data=csv_bytes,
             file_name="cleaned_dataset.csv",
             mime="text/csv",
-<<<<<<< HEAD
         )
-=======
-        )
->>>>>>> 71a641bc34554c88333d62ef8698f2241a3337c1
